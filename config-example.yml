@@ -8,6 +8,7 @@ repos:
       host: "gitlab.mpi-sws.org"
       repo: "antoinek/sync-test-repo"
       access_token: "SECRET"
+      initial_pipeline_sync: 10
       job_descriptions:
         build-job: "Gitlab Build Job"
         test-job1: "First Gitlab Test Job"

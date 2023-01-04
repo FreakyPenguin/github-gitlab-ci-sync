@@ -181,7 +181,7 @@ async def init_statuses(cfg):
         'pagination': 'keyset',
         'order_by': 'updated_at',
         'sort': 'desc',
-        'per_page': '5',
+        'per_page': str(cfg['gitlab']['initial_pipeline_sync']),
         })
     for pl in pls:
         plid = pl['id']
