@@ -1,0 +1,14 @@
+repos:
+  sync-test:
+    path: "/repo-synctest"
+    github:
+      repo: "FreakyPenguin/sync-test-repo"
+      access_token: "SECRET"
+    gitlab:
+      host: "gitlab.mpi-sws.org"
+      repo: "antoinek/sync-test-repo"
+      access_token: "SECRET"
+      job_descriptions:
+        build-job: "Gitlab Build Job"
+        test-job1: "First Gitlab Test Job"
+        test-job2: "Second Gitlab Test Job"
